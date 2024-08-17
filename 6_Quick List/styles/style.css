@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.teams{
+    align-items: center;
+}
+.display-flex{
+    display: flex;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #181818;
+}
+#quick-list{
+    font-weight: 500;
+}
+.text-primary{
+    color: #FF900E;
+}
+.text-light-gray{
+    color: #727272;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    background-color: #FF900E;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border-radius: 8px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
